@@ -8,7 +8,7 @@ const Dashboard = () => {
   const [loading, setLoading] = useState(true);
 
   // Replace with your ESP32's IP address
-  const ESP32_IP = 'http://192.168.1.156'; // Example IP
+  const ESP32_IP = 'https://192.168.1.156'; // Example IP
 
   useEffect(() => {
     // Function to fetch data
